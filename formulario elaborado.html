@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario elaborado</title>
+</head>
+<style>
+    .texto
+    {
+        width: 300px;
+        height: 175px;
+    }
+</style>
+<body>
+    
+    <fieldset>
+        <legend> Dados pessoais </legend>
+        <br> <br>
+        Nome: 
+        <input type="text" class="caixa_larga" id="Nome">
+        <br> <br>
+        Endereço:
+        <input type="text" class="caixa_larga" id="Endereco">
+        <br> <br>
+        Cidade:
+        <input type="text" class="caixa_larga" id="Cidade">
+        <br> <br>
+        Estado:
+        <select id="estado">
+            <option>Amapá</option>
+            <option>Bahia</option>
+            <option>Minas Gerais</option>
+            <option>São Paulo</option>
+            <option>Mato Grosso</option>
+            <option>Rio Grande do Sul</option>
+            <option>Rio Grande do Norte</option>
+            <option>Tocantins</option>
+            <option>Piauí</option>
+            <option>Sergipe</option>
+            <option>Ceará</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Pernambuco</option>
+            <option>Pará</option>
+            <option>Paraná</option>
+            <option>Acre</option>
+            <option>Rio de Janeiro</option>
+            <option>Paraíba</option>
+            <option>Alagoas</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Roraíma</option>
+            <option>Rondonia</option>
+            <option>Espirito Santo</option>
+            <option>Distrito Federal</option>
+            <option selected>Santa Catarina</option>
+
+        </select>
+    </fieldset>
+
+        <br> <br>
+
+        <fieldset>    
+            <legend>Dados profissionais</legend>
+            Natureza do cargo:
+            <br> <br>
+            <input type="radio" id="Gerencia" name="Gerencia">
+            Gerência
+            <input type="radio" id="Financeiro" name="Financeiro">
+            Financeiro
+            <input type="radio" id="Recepção" name="recepção">
+            Recepção
+            <input type="radio" id="Administrativo" name="Administrativo">
+            Administrativo
+            <input type="radio" id="Juridico" name="Juridico">
+            Juridico
+            <br> <br>
+            Área de interesse:
+            <br>
+            <input type="checkbox" id="computacao">Computação
+            <input type="checkbox" id="biologia">Biologia
+            <input type="checkbox" id="meio ambiente">Meio Ambiente
+            <input type="checkbox" id="engenharia">Engenharia
+            <input type="checkbox" id="história">História
+            <br> <br>
+            Mini-curriculo:
+            <textarea class="texto" id="curriculo"></textarea>
+        </fieldset>
+        <div class="botoes">
+            <button>ENVIAR</button>
+            <button>LIMPAR</button>
+        </div>
+        
+</body>
+</html>
